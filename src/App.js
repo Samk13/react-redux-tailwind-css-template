@@ -1,13 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
-import './App.css';
+// import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <header className="App-header container m-auto flex flex-col justi">
+        <img src={logo} className="App-logo w-10 h-10" alt="logo" />
         <Counter />
         <p>
           Edit <code>src/App.js</code> and save to reload.
