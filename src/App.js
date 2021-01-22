@@ -6,10 +6,10 @@ import { Counter } from './features/counter/Counter';
 function App() {
   return (
     <div className="App">
-      <header className="App-header container m-auto flex flex-col justi">
-        <img src={logo} className="App-logo w-10 h-10" alt="logo" />
+      <header className="App-header container m-auto flex flex-col text-center space-y-10">
+        <img src={logo} className="App-logo w-1/3 h-1/3 m-auto" alt="logo" />
         <Counter />
-        <p>
+        <p className="">
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <span>
